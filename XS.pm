@@ -5,7 +5,9 @@ require Exporter;
 
 @ISA = qw(DynaLoader);
 
-$VERSION = "1.00";
+$VERSION = "1.01";
+
+# ABSTRACT: XS code to glue Perl SASL to Cyrus SASL
 
 bootstrap Authen::SASL::XS $VERSION;
 

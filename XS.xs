@@ -1258,6 +1258,8 @@ See sasl_server_new(3) for details.
 
 =over 4
 
+=item
+
 See SYNOPSIS for an example.
 
 =cut
@@ -1451,6 +1453,8 @@ Therefore you have to check C<need_step> and C<code> during negotiation.
 See example below.
 
 =over 4
+
+=item
 
 =cut
 
