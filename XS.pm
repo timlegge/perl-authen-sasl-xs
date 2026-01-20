@@ -1,11 +1,13 @@
+use strict;
+use warnings;
 package Authen::SASL::XS;
 require DynaLoader;
 require Authen::SASL::XS::Security;
 require Exporter;
 
-@ISA = qw(DynaLoader);
+our @ISA = qw(DynaLoader);
 
-$VERSION = "1.01";
+our $VERSION = "1.01";
 
 # ABSTRACT: XS code to glue Perl SASL to Cyrus SASL
 
